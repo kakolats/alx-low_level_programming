@@ -2,12 +2,12 @@
 
 /**
  * _abs - return the absolute value of an int
- * @int: value
+ * @a: value
  *
  * Return: Always int
  */
 
-int _abs(int)
+int _abs(int a)
 {
-	return (abs(int));
+	return (abs(a));
 }
