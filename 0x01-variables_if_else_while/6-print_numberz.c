@@ -11,7 +11,7 @@ int main(void)
 {
 	int numb;
 
-	for (int numb = 0 ; numb < 10 ; numb++)
+	for (numb = 0 ; numb < 10 ; numb++)
 	{
 		char ch = (char)(numb);
 		putchar(ch);
