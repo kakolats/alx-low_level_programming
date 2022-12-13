@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
+#include <math.h>
+#include <stdlib.h>
 
 void print_alphabet(void);
 int _putchar(char c);
