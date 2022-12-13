@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 
 /**
@@ -17,15 +18,15 @@ int main(void)
 	l = n % 10;
 	if (l > 5)
 	{
-		prinf("Last digit of %c is %c and is greater than 5\n", n, l);
+		printf("Last digit of %c is %c and is greater than 5\n", n, l);
 	}
 	else if (l == 0)
 	{	
-		prinf("Last digit of %c is %c and is 0\n", n, l);
+		printf("Last digit of %c is %c and is 0\n", n, l);
 	}
 	else if (l < 6 && l != 0)
 	{
-		prinf("Last digit of %c is %c and is less than 6 and not 0", n, l);
+		printf("Last digit of %c is %c and is less than 6 and not 0", n, l);
 	}
 	return (0);
 }
