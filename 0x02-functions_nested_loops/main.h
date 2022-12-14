@@ -12,3 +12,4 @@ int print_sign(int n);
 int _abs(int a);
 int print_last_digit(int a);
 void times_table(void);
+int add(int a, int b);
