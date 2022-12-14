@@ -17,7 +17,7 @@ void jack_bauer(void)
 		{
 			if (i < 10)
 				printf("0");
-			printf("%d : ", i);
+			printf("%d:", i);
 			if (j < 10)
 				printf("0");
 			printf("%d\n", j);
