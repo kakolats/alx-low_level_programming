@@ -1,7 +1,7 @@
 #include "main.h"
 
 /*
- * _isalpha - a function that test if a char is alphabetic or not
+ * _isalpha - Entry point
  * @c: The character to test
  *
  * Return: Always int (0 or 1)
